@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import { PageRoutes } from "./PageRoutes";
 export function App() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <PageRoutes />
+    </>
   );
 }
